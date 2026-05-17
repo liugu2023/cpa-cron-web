@@ -11,12 +11,12 @@ crons = ["*/30 * * * *"]
 [[d1_databases]]
 binding = "DB"
 database_name = "cpa-warden-db"
-database_id = "<YOUR_D1_DATABASE_ID>"
+database_id = "e5909aaa-924a-4125-9a52-949829814f04"
 
 # KV Namespace — run `wrangler kv namespace create KV` and fill in the id
 [[kv_namespaces]]
 binding = "KV"
-id = "<YOUR_KV_NAMESPACE_ID>"
+id = "094f60481fa045ba9d974b7aa1cea583"
 
 # Environment variables (set via wrangler secret or dashboard)
 # ADMIN_USERNAME - admin login username (default: admin)
